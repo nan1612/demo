@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <language version="1.0" htmlParse="true">
+;
+
+        <!-- misc -->
+        <item id="btnContinue">下一步</item>
+        <item id="btnclose">關閉</item>
+        <item id="btnHelp">幫助</item>
+        <item id="btnAgreement">影響大</item>
+        <item id="btnNeutral">無影響</item>
+        <item id="btnDisagreement">影響小</item>
+        <item id="btnTransfer">提交</item>
+        <item id="btnExit">離開</item>
+        <item id="selectItem">請選擇</item>
+        
+        <!-- Warning when user is trying to leave the page (this item was added for HtmlQ) -->
+        <item id="leaveSiteWarning">若沒有保存，你的回答將會遺失</item>
+
+        <!-- HtmlQ only: In-App Back Button -->
+        <item id="backButton">上一步</item>
+        <item id="fillInRequiredFields">請填寫所有必填欄位</item>
+
+        <!-- errors -->
+        <item id="errorHead">Error!</item>
+        <item id="errorWindowTooSmall">Please maximize your browser for using this application.</item>
+
+        <!-- welcome screen (leave blank to skip screen) -->
+        <item id="welcomeHead">歡迎</item>
+        <item id="welcomeText">這是有關負面選舉廣告看板影響大學生&研究生投票意願的問卷研究。提醒：在進行此調查時，您需要較寬廣的螢幕空間！如有需要，請最大化您的瀏覽器窗口大小，重新載入此網頁，然後點擊「繼續」按鈕開始進行調查。</item>
+
+        <!-- user login, only displayed if access is restricted (see config-file) -->
+        <item id="loginHead">Access Code</item>
+        <item id="loginText">Please enter the access code for this survey.</item>
+        <item id="loginFormHeader">Access Code</item>
+        <item id="loginPartIdText">Your name or survey id number</item>
+        <item id="loginNoInput">Please enter the access code.</item>
+        <item id="loginInvalidInput">Access code invalid</item>
+        <item id="loginNoConnection">Connection to server failed. Please try again.</item>
+
+        <!-- introduction (leave blank to skip popup) -->
+        <item id="introHead">介紹</item>
+        <item id="introText">非常感謝您撥冗參與本研究，您的參與將為我們提供寶貴的資料，問卷填寫採取匿名進行，您的個人資訊將被嚴格保密。本研究旨在探討負面選舉廣告對大學生投票意願的影響，問卷過程預計將花費您十分鐘左右的時間，請您仔細閱讀語句並請按照影響您投票程度的大小，從-4至+4的量表來排序。</item>
+
+        <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
+        <item id="step1Head">Step 1 of 5</item>
+        <item id="step1Text">請仔細閱讀以下的語句敘述，並將它們分成三部分：一部分是您認為影響大的語句敘述，一部分是您認為影響小的語句敘述，以及一部分您認為無影響的語句敘述。您可以將語句拖曳到其中一個框格中，之後還可以進行更改。如果您想再次閱讀這個說明，請按左下角的幫助按鈕。</item>
+
+        <!-- step2: sorting (leave blank to skip popup) -->
+        <item id="step2Head">Step 2 of 5</item>
+        <item id="step2Text">請您將認為影響大的語句放在量表的右側。接下來，將您認為影響小的語句放在量表的左側。影響大和影響小框格內的所有語句都按照這個程序進行。最後，將您認為無影響的語句放置在量表其餘的空白框中。</item>
+        <item id="step2CondOfInstruc">Give condition of instruction here</item>
+        <item id="step2TextSizeLabel">Text</item>
+        
+
+        <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
+        <item id="step3Head">Step 3 of 5</item>
+        <item id="step3Text">現在，您已將所有語句放置在量表上。請再次檢查您的語句位置分配，如有需要，可以交換語句的位置。</item>
+        <item id="step3CondOfInstruc">Give condition of instruction here</item>
+
+        <!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->
+        <item id="step4Head">Step 4 of 5</item>
+        <item id="step4Text">請解釋為什麼您認為「+4」或「-4」的語句敘述對您影響最大或最小。</item>
+
+        <!-- step5: dditional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
+        <item id="step5Head">Step 5 of 5</item>
+        <item id="step5Text">最後，請回答以下有關您個人資料的問題。</item>
+
+        <!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
+        <item id="transferHead">提交回答</item>
+        <item id="transferText">您已完成調查。請現在提交您的資料。</item>
+        <item id="transferFailed">提交失敗。請再試一次。</item>
+        <item id="transferOk">感謝使用 Easy HTMLQ！您現在可以關閉瀏覽器窗口。</item>   
+   </language>
